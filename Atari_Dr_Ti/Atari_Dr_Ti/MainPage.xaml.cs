@@ -107,6 +107,20 @@ namespace Atari_Dr_Ti
 
             actions.Add(() =>
             {
+                if (currentBallBounds.Y + currentBallBounds.Height >= screenHeight - 20)
+                {
+                    DisplayAlert("Przegrana", "Przykro mi, nie udało ci się wygrać!", "OK");
+                    timer.Stop();
+                }
+                if (bricks.Count == 0)
+                {
+                    DisplayAlert("Wygrana", "Gratulacje, wygrałeś naszą grę!", "OK");
+                    timer.Stop();
+                }
+            });
+
+            actions.Add(() =>
+            {
                 List<Brick> toRemove = new List<Brick>();
                 for (int i = 0; i < bricks.Count; i++)
                 {
