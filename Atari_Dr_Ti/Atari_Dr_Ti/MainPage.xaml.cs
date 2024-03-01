@@ -12,8 +12,16 @@ namespace Atari_Dr_Ti
     public partial class MainPage : ContentPage
     {
         List<Action> actions = new List<Action>();
+        //List<Brick> bricks = new List<Brick>();
+        double screenWidth;
+        double screenHeight;
 
-        double screenWidth, screenHeight;
+        double objectWidth = 20;
+        double objectHeight = 20;
+        int stepx = 1, stepy = 1;
+
+        Rectangle currentBallBounds;
+        Rectangle playerBounds;
 
         public MainPage()
         {
@@ -34,8 +42,11 @@ namespace Atari_Dr_Ti
             timer.Interval = 5;
             timer.Enabled = true;
             timer.Start();
+
         }
+
 
 
     }
 }
+
