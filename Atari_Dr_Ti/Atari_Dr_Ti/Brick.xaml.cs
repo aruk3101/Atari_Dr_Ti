@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace Atari_Dr_Ti
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Player : ContentView
+    public partial class Brick : ContentView
     {
-        public Player()
+        public Brick()
         {
             InitializeComponent();
-        }
-
-        private void start_Clicked(object sender, EventArgs e)
-        {
-
         }
     }
 }
