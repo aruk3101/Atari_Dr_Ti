@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atari_Dr_Ti.Android", "Atari_Dr_Ti\Atari_Dr_Ti.Android\Atari_Dr_Ti.Android.csproj", "{2FB463A6-2F1E-4156-BD07-7DFA99EA0FE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atari_Dr_Ti", "Atari_Dr_Ti\Atari_Dr_Ti\Atari_Dr_Ti.csproj", "{CA29788A-F50F-4AEE-AAE0-7BC3133F5D20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FB463A6-2F1E-4156-BD07-7DFA99EA0FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB463A6-2F1E-4156-BD07-7DFA99EA0FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB463A6-2F1E-4156-BD07-7DFA99EA0FE7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2FB463A6-2F1E-4156-BD07-7DFA99EA0FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB463A6-2F1E-4156-BD07-7DFA99EA0FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB463A6-2F1E-4156-BD07-7DFA99EA0FE7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CA29788A-F50F-4AEE-AAE0-7BC3133F5D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA29788A-F50F-4AEE-AAE0-7BC3133F5D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA29788A-F50F-4AEE-AAE0-7BC3133F5D20}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA29788A-F50F-4AEE-AAE0-7BC3133F5D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA29788A-F50F-4AEE-AAE0-7BC3133F5D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA29788A-F50F-4AEE-AAE0-7BC3133F5D20}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9F8C8F4-6C73-420F-8328-DA9B1786F67E}
+	EndGlobalSection
+EndGlobal
