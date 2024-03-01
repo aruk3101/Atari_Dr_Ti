@@ -5,7 +5,7 @@
              xmlns:local="clr-namespace:Atari_Dr_Ti">
 
     <AbsoluteLayout x:Name="layout" HorizontalOptions="FillAndExpand">
-        <local:Player x:Name="player" AbsoluteLayout.LayoutBounds="100,400,100,20"></local:Player>
+        <local:Player x:Name="player" AbsoluteLayout.LayoutBounds="100,600,100,20"></local:Player>
         <local:Ball x:Name="ball" AbsoluteLayout.LayoutBounds="100,200,20,20"></local:Ball>
     </AbsoluteLayout>
 
