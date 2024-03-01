@@ -3,6 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Atari_Dr_Ti.Player">
   <ContentView.Content>
-        <Image WidthRequest="100" HeightRequest="20" Source="player.png"/>
+        <Image WidthRequest="100" HeightRequest="20" Source="player.png" Aspect="AspectFill"/>
    </ContentView.Content>
 </ContentView>
