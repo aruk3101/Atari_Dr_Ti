@@ -3,6 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Atari_Dr_Ti.Brick">
   <ContentView.Content>
-        <Grid WidthRequest="50" HeightRequest="20" BackgroundColor="Orange"/>
+        <Image WidthRequest="50" HeightRequest="20" Source="brick.png"/>
     </ContentView.Content>
 </ContentView>

@@ -3,6 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Atari_Dr_Ti.Ball">
   <ContentView.Content>
-        <Grid WidthRequest="20" HeightRequest="20" BackgroundColor="Red"/>
+        <Image WidthRequest="20" HeightRequest="20" Source="ball.png"/>
     </ContentView.Content>
 </ContentView>
