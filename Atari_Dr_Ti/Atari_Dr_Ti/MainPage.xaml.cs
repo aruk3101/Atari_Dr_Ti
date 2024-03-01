@@ -43,12 +43,12 @@ namespace Atari_Dr_Ti
                 {
                     if (playerBounds.X < 5)
                         accX = -accX;
-                    playerBounds.X += Math.Floor(accX) * 3;
+                    playerBounds.X += Math.Floor(accX) * 5;
                 }
                 else
                 {
                     if (playerBounds.X + playerBounds.Width > screenWidth - 5) accX = -accX;
-                    playerBounds.X += Math.Ceiling(accX) * 3;
+                    playerBounds.X += Math.Ceiling(accX) * 5;
                 }
                 AbsoluteLayout.SetLayoutBounds(player, playerBounds);
             }
@@ -85,7 +85,7 @@ namespace Atari_Dr_Ti
         {
             base.OnAppearing();
             Timer timer = new Timer();
-            timer.Interval = 5;
+            timer.Interval = 10;
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
             Accelerometer.ReadingChanged += Accelerometer_ReadingChanged;
